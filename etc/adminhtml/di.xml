@@ -8,11 +8,11 @@
 
     <!--Constructor injection section-->
 
-    <type name="Gallinago\SimpleProductToConfigurableForward\Block\Adminhtml\Product\Edit\Button\FrontendLinkButton">
-        <arguments>
-            <argument name="storeCode" xsi:type="string">pl</argument>
-        </arguments>
-    </type>
+<!--    <type name="Gallinago\SimpleProductToConfigurableForward\Block\Adminhtml\Product\Edit\Button\FrontendLinkButton">-->
+<!--        <arguments>-->
+<!--            <argument name="storeCode" xsi:type="string">STORE_CODE</argument>-->
+<!--        </arguments>-->
+<!--    </type>-->
 
     <!--End of constructor injection section-->
 
