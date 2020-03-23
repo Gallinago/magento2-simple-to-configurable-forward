@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Gallinago <https://gallinago.pl>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+
+    <!--Constructor injection section-->
+
+    <type name="Gallinago\SimpleProductToConfigurableForward\Block\Adminhtml\Product\Edit\Button\FrontendLinkButton">
+        <arguments>
+            <argument name="storeCode" xsi:type="string">pl</argument>
+        </arguments>
+    </type>
+
+    <!--End of constructor injection section-->
+
+</config>

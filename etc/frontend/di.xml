@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Gallinago <https://gallinago.pl>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+
+    <!--Preference section-->
+
+    <preference for="Magento\Catalog\Controller\Product\View"
+                type="Gallinago\SimpleProductToConfigurableForward\Controller\Product\View" />
+
+    <preference for="Gallinago\SimpleProductToConfigurableForward\Api\SimpleProductForwardInterface"
+                type="Gallinago\SimpleProductToConfigurableForward\Model\SimpleProductForward" />
+
+    <!--End of preference section-->
+
+</config>
